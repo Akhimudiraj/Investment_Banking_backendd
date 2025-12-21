@@ -24,7 +24,7 @@ public interface DealRepository extends JpaRepository<Deal, Long> {
            "(:sector IS NULL OR LOWER(d.sector) LIKE LOWER(CONCAT('%', :sector, '%'))) AND " +
            "(:stage IS NULL OR d.currentStage = :stage)")
     List<Deal> searchDeals(
-        @Param("clientName") String clientName,
+        @Param("clientName") String clientName,  //param bind method parameter to named parameter
         @Param("dealType") String dealType,
         @Param("sector") String sector,
         @Param("stage") String stage
