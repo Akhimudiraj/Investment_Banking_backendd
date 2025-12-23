@@ -19,7 +19,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/deals")
 @RequiredArgsConstructor
-@CrossOrigin
+@CrossOrigin(origins = "*")
 public class DealController {
     private final DealService dealService;
     
