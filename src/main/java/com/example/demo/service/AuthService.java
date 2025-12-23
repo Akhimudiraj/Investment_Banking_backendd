@@ -1,6 +1,6 @@
 package com.example.demo.service;
 
-
+//Handles login  Authenticates credentials Generates JWT token
 
 
 import lombok.RequiredArgsConstructor;

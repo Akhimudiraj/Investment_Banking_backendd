@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
 
-
+//Bridge between Spring Security and User entity
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,6 +1,9 @@
 package com.example.demo.service;
 
-
+// Create, update, fetch, delete deals  Assign users
+// Manage deal stages
+// Add notes
+// Convert entities → DTOs
 
 
 import lombok.RequiredArgsConstructor;

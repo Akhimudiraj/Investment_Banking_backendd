@@ -1,5 +1,8 @@
 package com.example.demo.service;
 
+//Manage users
+//Enforce validation rules
+// Hide sensitive data
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.context.SecurityContextHolder;

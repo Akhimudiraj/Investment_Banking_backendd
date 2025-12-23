@@ -39,7 +39,7 @@ public class SecurityConfig {
         return new BCryptPasswordEncoder();
     }
 
-    // ✅ Let Spring Security build AuthenticationManager automatically
+    // Spring Security build AuthenticationManager automatically
     @Bean
     public AuthenticationManager authenticationManager(
             AuthenticationConfiguration authenticationConfiguration) throws Exception {
