@@ -70,7 +70,7 @@ public class SecurityConfig {
 
         configuration.setAllowedOrigins(Arrays.asList(
             "http://localhost:4200",
-            "https://https://investmentbankingfrontendd.netlify.app/login"
+            "https://investmentbanking.netlify.app"
         ));
 
         configuration.setAllowedMethods(Arrays.asList(

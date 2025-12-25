@@ -13,7 +13,7 @@ import com.example.demo.service.UserService;
 @RestController
 @RequestMapping("/api/users")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
+
 public class UserController {
     private final UserService userService;
     
